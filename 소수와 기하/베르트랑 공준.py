@@ -13,7 +13,6 @@ while True:
 y = 123456 * 2
 arr = [True for _ in range(y+1)]
 arr[1] = False
-
 for i in range(2, int(math.sqrt(y))+1):
     if arr[i]:
         j = 2
